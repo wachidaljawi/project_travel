@@ -1,0 +1,136 @@
+.navbar-nav :hover {
+    color: aqua;
+}
+
+i :hover {
+    color: red;
+}
+
+.search_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #FF4A52;
+    width: 60px;
+}
+
+.carousel-item {
+    margin-top: 250px;
+}
+
+#carouselExampleCaptions {
+    height: 600px;
+    background: url(../img/raja-ampat.jpg);
+    background-size: cover;
+}
+
+.primary-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    padding: 0 12px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 160px;
+    height: 46px;
+    border-left: 2px solid #e16521;
+    border-right: 2px solid #e4381C;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #e4381C), to(#e16521)), -webkit-gradient(linear, left top, right top, from(#e4381C), color-stop(0%, #e16521));
+    background-image: -o-linear-gradient(left, #e4381C 100%, #e16521 100%), -o-linear-gradient(left, #e4381C 0%, #e16521 0%);
+    background-image: linear-gradient(to right, #e4381C 100%, #e16521 100%), linear-gradient(to right, #e4381C 0%, #e16521 0%);
+
+    -webkit-transition-duration: 1000ms;
+    -o-transition-duration: 1000ms;
+    transition-duration: 1000ms;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.primary-btn:hover {
+    background: #e4381C;
+}
+
+.primary-btn:after {
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background: #e16521;
+    background: -webkit-gradient(linear, left top, right top, from(#e16521), to(#e4381C));
+    background: -o-linear-gradient(left, #e16521, #e4381C);
+    background: linear-gradient(to right, #e16521, #e4381C);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.where_togo_area {
+    background: #040E27;
+    padding: 50px 0;
+}
+
+.where_togo_area .form_area h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.where_togo_area .search_wrap .search_form {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between;
+}
+
+.where_togo_area .search_wrap .input_field {
+    width: 220px;
+}
+
+.where_togo_area .search_wrap .input_field input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #363E52;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.where_togo_area .search_wrap .input_field select {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #363E52;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: gray;
+}
