@@ -308,17 +308,84 @@ i :hover {
     padding-left: 15px;
     color: #000;
     font-size: 16px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik", "sans-serif";
     font-weight: 300;
 }
 
 .newletter_area .mail_form .newsletter_field input::placeholder {
     color: #AAB1B7;
     font-size: 16px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik", "sans-serif";
     font-weight: 300;
 }
 
 .newletter_area .mail_form .newsletter_field input:focus {
     outline: none;
+}
+
+.prise {
+    position: absolute;
+    background: #1EC6B6;
+    padding: 7px 18px 4px 18px;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.prise:hover {
+    background: #FF4A52;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.video-section {
+    text-align: center;
+    height: 500px;
+    background: url(../img/raja-ampat.jpg);
+    background-size: cover;
+}
+
+.video-section .video-text {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.video-section .video-text h2 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    font-family: 'Lemonada', 'cursive';
+}
+
+.video-section .video-text .play-btn {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 62px;
+    color: #e4381C;
+    border-radius: 50%;
+    position: relative;
+    padding-left: 5px;
+}
+
+.video-section .video-text .play-btn:after {
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    opacity: 0.3;
+    border-radius: 50%;
+    content: "";
 }
