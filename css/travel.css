@@ -169,7 +169,7 @@ i :hover {
     position: absolute;
 }
 
-/* line 30, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_destination.scss */
+
 .popular_destination_area .single_destination .thumb img {
     width: 100%;
     -webkit-border-radius: 5px;
@@ -177,7 +177,6 @@ i :hover {
     border-radius: 5px;
 }
 
-/* line 35, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_destination.scss */
 .popular_destination_area .single_destination .content {
     position: absolute;
     left: 30px;
@@ -185,7 +184,6 @@ i :hover {
     z-index: 7;
 }
 
-/* line 40, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_destination.scss */
 .popular_destination_area .single_destination .content p {
     margin-bottom: 0;
     font-size: 22px;
