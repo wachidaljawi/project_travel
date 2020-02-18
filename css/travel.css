@@ -513,3 +513,33 @@ i :hover {
     right: 0;
     bottom: -10px;
 }
+
+.footer {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #040E27;
+    position: relative;
+    z-index: 0;
+
+}
+
+.socail_links a {
+    color: ghostwhite;
+    height: 50px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.socail_links a:hover {
+    color: #FF4A52;
+}
+
+.row-instagram img {
+    border-radius: 10px;
+    border: none;
+    height: 65px;
+    width: 65px;
+}
